@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
+//функція для генерації випадкового кольору.
 function getRandomColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
